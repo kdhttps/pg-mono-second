@@ -1,8 +1,7 @@
-@id("admin_can_read_write_to_application")
+@id("admin_can_read_to_application")
 permit(
   principal is Jans::User,
-  action in [Jans::Action::"Read",
-  Jans::Action::"Write"],
+  action in [Jans::Action::"Read"],
   resource is Jans::Application
 )
 when {
