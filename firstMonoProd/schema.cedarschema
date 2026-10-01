@@ -85,6 +85,8 @@ namespace Jans {
     validated_at?: Long
   } tags Set<String>;
 
+  entity VM;
+
   entity Workload = {
     access_token?: Access_token,
     client_id: String,
