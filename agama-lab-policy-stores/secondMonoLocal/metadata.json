@@ -1,0 +1,11 @@
+{
+    "cedar_version": "4.9.0",
+    "policy_store": {
+        "id": "31a30bd20bfca76f4560e983899e17f6507a9c17a5db",
+        "name": "secondMonoLocal",
+        "description": "",
+        "version": "0.0.0",
+        "created_date": "2026-10-05T10:09:36.628053+00:00",
+        "updated_date": "2026-10-05T10:09:36.628086+00:00"
+    }
+}
