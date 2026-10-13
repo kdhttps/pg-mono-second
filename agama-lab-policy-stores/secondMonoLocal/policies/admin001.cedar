@@ -7,5 +7,5 @@ permit(
 when {
   principal has userinfo_token &&
   principal.userinfo_token has role &&
-  principal.userinfo_token.role.contains("admin")
+  principal.userinfo_token.role.contains("ad")
 };
