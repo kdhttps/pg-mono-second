@@ -1,0 +1,36 @@
+{
+    "id": "68266bfe35598da137b443922ce0ff8de508fdc8c463",
+    "name": "Jans",
+    "description": "jans",
+    "configuration_endpoint": "https://jans.io",
+    "token_metadata": {
+        "access_token": {
+            "trusted": true,
+            "entity_type_name": "Jans::Access_token",
+            "token_id": "jti",
+            "required_claims": [
+                "jti",
+                "iss",
+                "aud",
+                "sub",
+                "exp",
+                "nbf"
+            ]
+        },
+        "id_token": {
+            "trusted": true,
+            "entity_type_name": "Jans::id_token",
+            "token_id": "jti"
+        },
+        "userinfo_token": {
+            "trusted": true,
+            "entity_type_name": "Jans::Userinfo_token",
+            "token_id": "jti"
+        },
+        "tx_token": {
+            "trusted": true,
+            "entity_type_name": "Jans::Access_token",
+            "token_id": "jti"
+        }
+    }
+}
