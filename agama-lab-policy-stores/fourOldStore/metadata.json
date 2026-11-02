@@ -1,0 +1,12 @@
+{
+    "policy_store_spec_version": 1,
+    "cedar_version": "4.9.0",
+    "policy_store": {
+        "id": "791ffcfc95568b9c5dc48e663ee9d22b4043ca1ec6e8",
+        "name": "fourOldStore",
+        "description": "",
+        "version": "0.0.0",
+        "created_date": "2026-11-02T08:17:12.262218+00:00",
+        "updated_date": "2026-11-02T08:17:12.262246+00:00"
+    }
+}
