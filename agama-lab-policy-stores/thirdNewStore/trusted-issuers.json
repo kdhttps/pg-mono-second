@@ -11,19 +11,5 @@
             "aud",
             "sub"
         ]
-    },
-    "Acme::Access_token": {
-        "type": "jwt",
-        "issuer": "Acme",
-        "configuration_endpoints": {
-            "jwks": "https://jans-ui.jans.io/jans-auth/restv1/jwks",
-            "iss": "https://jans-ui.jans.io"
-        },
-        "token_id": "jti",
-        "required_claims": [
-            "iss",
-            "aud",
-            "sub"
-        ]
     }
 }
