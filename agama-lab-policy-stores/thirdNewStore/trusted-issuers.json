@@ -11,19 +11,5 @@
             "iss",
             "aud"
         ]
-    },
-    "Acmee::Access_tokennn": {
-        "type": "jwt",
-        "issuer": "Acmee",
-        "configuration_endpoints": {
-            "jwks": "https://jans.io",
-            "iss": "https://jans.io"
-        },
-        "token_id": "jti",
-        "required_claims": [
-            "iss",
-            "aud",
-            "sub"
-        ]
     }
 }
