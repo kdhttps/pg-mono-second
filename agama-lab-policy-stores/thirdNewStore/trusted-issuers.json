@@ -11,5 +11,17 @@
             "iss",
             "aud"
         ]
+    },
+    "Acme::Access_token": {
+        "type": "jwt",
+        "issuer": "Acme",
+        "configuration_endpoints": {
+            "jwks": "https://jans.io",
+            "iss": "https://jans.io"
+        },
+        "token_id": "ACCESSID",
+        "required_claims": [
+            "iss"
+        ]
     }
 }
