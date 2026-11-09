@@ -26,5 +26,18 @@
             "iss",
             "cust"
         ]
+    },
+    "gluu_ui::Access_token": {
+        "type": "jwt",
+        "issuer": "gluu_ui",
+        "configuration_endpoints": {
+            "configuration": "https://jans-ui.jans.io/.well-known/openid-configuration"
+        },
+        "token_id": "iss",
+        "required_claims": [
+            "iss",
+            "sub",
+            "asa"
+        ]
     }
 }
