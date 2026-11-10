@@ -12,5 +12,18 @@
             "sub",
             "iat"
         ]
+    },
+    "Acme::id_token": {
+        "type": "jwt",
+        "issuer": "Acme",
+        "configuration_endpoints": {
+            "jwks": "https://jans.io/jans",
+            "iss": "https://jans.io"
+        },
+        "token_id": "iss",
+        "required_claims": [
+            "iss",
+            "sub"
+        ]
     }
 }
