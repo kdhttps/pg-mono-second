@@ -9,7 +9,8 @@
         "token_id": "iss",
         "required_claims": [
             "iss",
-            "sub"
+            "sub",
+            "iat"
         ]
     }
 }
