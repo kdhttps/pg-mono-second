@@ -26,11 +26,6 @@
             "trusted": true,
             "entity_type_name": "Jans::Userinfo_token",
             "token_id": "jti"
-        },
-        "tx_token": {
-            "trusted": true,
-            "entity_type_name": "Jans::Access_token",
-            "token_id": "jti"
         }
     }
 }
