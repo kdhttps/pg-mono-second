@@ -3,7 +3,8 @@
         "type": "jwt",
         "issuer": "Acme",
         "configuration_endpoints": {
-            "configuration": "https://jans-ui.jans.io/.well-known/openid-configuration"
+            "jwks": "https://jans-ui.jans.io/jans-auth/restv1/jwks",
+            "iss": "https://jans-ui.jans.io"
         },
         "token_id": "jti",
         "required_claims": [
