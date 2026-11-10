@@ -1,0 +1,26 @@
+{
+    "id": "009ac2a6a667a162d570e1ab4c9e13f3f699bd3b0822",
+    "name": "Acme",
+    "description": "acme",
+    "configuration_endpoint": "https://jans.io",
+    "token_metadata": {
+        "access_token": {
+            "trusted": true,
+            "entity_type_name": "Jans::Access_token",
+            "token_id": "jti",
+            "required_claims": [
+                "jti",
+                "iss",
+                "aud",
+                "sub",
+                "exp",
+                "nbf"
+            ]
+        },
+        "id_token": {
+            "trusted": true,
+            "entity_type_name": "Jans::id_token",
+            "token_id": "jti"
+        }
+    }
+}
