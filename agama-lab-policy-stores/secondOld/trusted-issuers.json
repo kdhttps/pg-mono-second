@@ -22,6 +22,9 @@
             "configuration": "https://jans-ui.jans.io/.well-known/openid-configuration"
         },
         "token_id": "jti",
-        "required_claims": []
+        "required_claims": [
+            "iat",
+            "aud"
+        ]
     }
 }
