@@ -3,8 +3,7 @@
         "type": "jwt",
         "issuer": "Acme",
         "configuration_endpoints": {
-            "jwks": "https://jans.io/jwks",
-            "iss": "https://jans.io"
+            "configuration": "https://jans.io/.well-known/openid-configuration"
         },
         "token_id": "iss",
         "required_claims": [
