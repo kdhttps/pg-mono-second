@@ -25,5 +25,18 @@
             "iss",
             "sub"
         ]
+    },
+    "Acme::Userinfo_token": {
+        "type": "jwt",
+        "issuer": "Acme",
+        "configuration_endpoints": {
+            "configuration": "https://jans-ui.jans.io/.well-known/openid-configuration"
+        },
+        "token_id": "jti",
+        "required_claims": [
+            "jti",
+            "iss",
+            "sub"
+        ]
     }
 }
