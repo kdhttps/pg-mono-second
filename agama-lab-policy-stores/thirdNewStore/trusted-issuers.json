@@ -52,5 +52,15 @@
             "iss",
             "sub"
         ]
+    },
+    "Acc::TXX_Token": {
+        "type": "custom",
+        "issuer": "Acc",
+        "required_claims": [
+            "jti",
+            "iss",
+            "sub",
+            "tx"
+        ]
     }
 }
