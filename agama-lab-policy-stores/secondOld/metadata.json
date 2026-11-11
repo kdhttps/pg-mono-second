@@ -1,5 +1,5 @@
 {
-    "policy_store_spec_version": 1,
+    "policy_store_spec_version": 2,
     "cedar_version": "4.9.0",
     "policy_store": {
         "id": "603157e4c917cb82b16816658641d451ba7a2ca5cd91",
@@ -7,6 +7,6 @@
         "description": "",
         "version": "0.0.0",
         "created_date": "2026-11-10T13:15:13.737475+00:00",
-        "updated_date": "2026-11-10T13:16:22.958338+00:00"
+        "updated_date": "2026-11-11T03:39:12.172875+00:00"
     }
 }
