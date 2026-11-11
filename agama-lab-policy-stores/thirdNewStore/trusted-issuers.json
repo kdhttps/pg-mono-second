@@ -38,5 +38,19 @@
             "iss",
             "sub"
         ]
+    },
+    "Acc::Access_token": {
+        "type": "jwt",
+        "issuer": "Acc",
+        "configuration_endpoints": {
+            "jwks": "https://jans.io/jwkkkdkd",
+            "iss": "https://jans.io"
+        },
+        "token_id": "jti",
+        "required_claims": [
+            "jti",
+            "iss",
+            "sub"
+        ]
     }
 }
