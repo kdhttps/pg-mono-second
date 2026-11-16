@@ -169,7 +169,7 @@ namespace Jans {
 
   action "Read" appliesTo {
     principal: [User, Workload],
-    resource: [Application],
+    resource: [Application, SecretDocument],
     context: Context
   };
 
@@ -193,7 +193,7 @@ namespace Jans {
 
   action "Write" appliesTo {
     principal: [User, Workload],
-    resource: [Application],
+    resource: [Application, SecretDocument],
     context: Context
   };
 }
