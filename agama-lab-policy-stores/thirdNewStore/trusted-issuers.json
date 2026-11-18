@@ -53,16 +53,6 @@
             "sub"
         ]
     },
-    "Acc::TXX_Token": {
-        "type": "custom",
-        "issuer": "Acc",
-        "required_claims": [
-            "jti",
-            "iss",
-            "sub",
-            "tx"
-        ]
-    },
     "Jans::Access_token": {
         "type": "jwt",
         "issuer": "Jans",
