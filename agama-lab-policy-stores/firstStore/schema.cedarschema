@@ -1,3 +1,9 @@
+namespace Acc {
+  entity Access_token;
+
+  entity Userinfo_token;
+}
+
 namespace Acme {
   entity Access_token;
 
