@@ -42,5 +42,16 @@
         "required_claims": [
             "jti"
         ]
+    },
+    "Acc::Userinfo_token": {
+        "type": "jwt",
+        "issuer": "Acc",
+        "configuration_endpoints": {
+            "configuration": "https://jans-ui.jans.io/.well-known/openid-configuration"
+        },
+        "token_id": "jti",
+        "required_claims": [
+            "jti"
+        ]
     }
 }
