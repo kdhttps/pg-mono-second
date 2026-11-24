@@ -1,3 +1,9 @@
+namespace Acme {
+  entity Access_token;
+
+  entity Userinfo_token;
+}
+
 namespace Jans {
   type Context = {
     current_time?: Long,
