@@ -1,3 +1,9 @@
+namespace Acc {
+  entity Access_token;
+
+  entity TrustedIssuer;
+}
+
 namespace Acme {
   entity Access_token;
 
